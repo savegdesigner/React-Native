@@ -9,13 +9,16 @@ import Aleatorio from './components/Aleatorio'
 import Titulo from './components/Titulo'
 import Botao from './components/Botao'
 import Contador from './components/Contador'
+// import Pai from './components/direta/Pai'
+import Pai from './components/indireta/Pai'
 
 export default () => {
 
     return (
         <SafeAreaView style={styles.App}>
 
-            <Contador inicial={1} passo={2}/>
+            {/* <Pai /> */}
+            {/* <Contador inicial={1} passo={2}/> */}
             {/* <Botao /> */}
             {/* <Titulo principal="Cadastro Produto" secundario="Cadastro de Clientes"/> */}
             {/* <Aleatorio min={0} max={10}/> */}
