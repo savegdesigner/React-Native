@@ -21,12 +21,16 @@ import { StyleSheet, SafeAreaView, Text } from 'react-native'
 // import ListaProdutos from './components/produtos/ListaProdutos'
 // import ListaProdutos2 from './components/produtos/ListaProdutos2'
 // import ControlledComponent from './components/ControlledComponent'
+// import Flexbox from './components/layout/Flexbox'
+// import Flexbox2 from './components/layout/Flexbox2'
 
 export default () => {
 
     return (
         <SafeAreaView style={styles.App}>
 
+            {/* <Flexbox2 /> */}
+            {/* <Flexbox /> */}
             {/* <ControlledComponent /> */}
             {/* <ListaProdutos2 /> */}
             {/* <ListaProdutos /> */}
