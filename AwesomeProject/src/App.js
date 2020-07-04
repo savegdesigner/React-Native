@@ -23,12 +23,14 @@ import { StyleSheet, SafeAreaView, Text } from 'react-native'
 // import ControlledComponent from './components/ControlledComponent'
 // import Flexbox from './components/layout/Flexbox'
 // import Flexbox2 from './components/layout/Flexbox2'
+import Mega from './components/mega/Mega'
 
 export default () => {
 
     return (
         <SafeAreaView style={styles.App}>
 
+            <Mega qtdeNumeros={6}/>
             {/* <Flexbox2 /> */}
             {/* <Flexbox /> */}
             {/* <ControlledComponent /> */}
