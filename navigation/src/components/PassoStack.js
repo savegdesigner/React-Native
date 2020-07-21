@@ -4,7 +4,11 @@ import { View, Button } from 'react-native';
 export default (props) => {
   // push(screen) navigate(screen) goBack()
   btnAvancar = () => {
-    props.navigation.navigate(props.avancar);
+    // props.navigation.navigate(props.avancar);
+
+    props.navigation.push(props.avancar, {
+      numero: parseInt(Math.random() * 100),
+    });
   };
 
   btnVoltar = () => {
